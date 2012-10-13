@@ -1,0 +1,66 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CVector3d	./vector.cpp	/^CVector3d(const CVector3d& a_source) {$/;"	f
+CVector3d	./vector.cpp	/^CVector3d(const double* a_in) {$/;"	f
+CVector3d	./vector.cpp	/^CVector3d(const float* a_in) {$/;"	f
+CVector3d	./vector.cpp	/^CVector3d::CVector3d() {$/;"	f	class:CVector3d
+CVector3d	./vector.cpp	/^CVector3d::CVector3d(const double a1, const double a2,		\/* Passing 3 double values *\/$/;"	f	class:CVector3d
+CVector3d	./vector.h	/^		class CVector3d$/;"	c	namespace:MTLib
+H_CVECTOR3D	./vector.h	3;"	d
+MTLib	./vector.h	/^namespace MTLib {$/;"	n
+add	./vector.cpp	/^inline void CVector3d::add(const cVector3d& a_vector) {$/;"	f	class:CVector3d
+add	./vector.cpp	/^inline void CVector3d::add(const double& a_x, const double& a_y, const double& a_z) {$/;"	f	class:CVector3d
+addr	./vector.cpp	/^inline void CVector3d::addr(const cVector3d& a_vector, cVector3d& a_result) {$/;"	f	class:CVector3d
+addr	./vector.cpp	/^inline void CVector3d::addr(const double& a_x, const double& a_y, const double& a_z, cVector3d& a_result) {$/;"	f	class:CVector3d
+copyfrom	./vector.cpp	/^inline void CVector3d::copyfrom(const cVector3d &a_source) {$/;"	f	class:CVector3d
+copyto	./vector.cpp	/^inline void CVector3d::copyto(cVector3d& a_destination) {$/;"	f	class:CVector3d
+cross	./vector.cpp	/^inline void CVector3d::cross(const cVector3d& a_vector) {$/;"	f	class:CVector3d
+crossAndReturn	./vector.cpp	/^inline CVector3d::cVector3d crossAndReturn(const cVector3d& a_vector) {$/;"	f
+crossr	./vector.cpp	/^inline void CVector3d::crossr(const cVector3d& a_vector, cVector3d& a_result) {$/;"	f	class:CVector3d
+d	./vector.h	/^					double d[3];$/;"	m	class:MTLib::CVector3d
+data	./vector.h	/^					double data[3];$/;"	m	class:MTLib::CVector3d
+distance	./vector.cpp	/^inline double CVector3d::distance(const cVector3d& a_vector) {$/;"	f	class:CVector3d
+distancesq	./vector.cpp	/^inline double CVector3d::distancesq(const cVector3d& a_vector) {$/;"	f	class:CVector3d
+div	./vector.cpp	/^inline void CVector3d::div(const double &a_scalar) {$/;"	f	class:CVector3d
+divr	./vector.cpp	/^inline void CVector3d::divr(const double& a_scalar, cVector3d& a_result) {$/;"	f	class:CVector3d
+dot	./vector.cpp	/^inline double CVector3d::dot(const cVector3d& a_vector) {$/;"	f	class:CVector3d
+elementMul	./vector.cpp	/^inline void CVector3d::elementMul(const cVector3d& a_vector) {$/;"	f	class:CVector3d
+elementMulr	./vector.cpp	/^inline void CVector3d::elementMulr(const cVector3d& a_vector, cVector3d& a_result) {$/;"	f	class:CVector3d
+equals	./vector.cpp	/^inline bool CVector3d::equals(const cVector3d& a_vector, const double epsilon=0.0) {$/;"	f	class:CVector3d
+get	./vector.cpp	/^inline double CVector3d::get(const unsigned int& a_component) {$/;"	f	class:CVector3d
+length	./vector.cpp	/^inline double CVector3d::length() {$/;"	f	class:CVector3d
+lengthsq	./vector.cpp	/^inline double CVector3d::lengthsq(void) {$/;"	f	class:CVector3d
+mul	./vector.cpp	/^inline void CVector3d::mul(const double &a_scalar) {$/;"	f	class:CVector3d
+mulr	./vector.cpp	/^inline void CVector3d::mulr(const double& a_scalar, cVector3d& a_result) {$/;"	f	class:CVector3d
+negate	./vector.cpp	/^inline void CVector3d::negate() {$/;"	f	class:CVector3d
+negater	./vector.cpp	/^inline void CVector3d::negater(cVector3d& a_result) {$/;"	f	class:CVector3d
+normalize	./vector.cpp	/^inline void CVector3d::normalize() {$/;"	f	class:CVector3d
+normalizer	./vector.cpp	/^inline void CVector3d::normalizer(cVector3d& a_result) {$/;"	f	class:CVector3d
+ones	./vector.cpp	/^inline void CVector3d::ones( void ) {$/;"	f	class:CVector3d
+operator *	./vector.cpp	/^inline CVector3d CVector3d::operator*(const CVector3d& a_v, const double a_input)	 {$/;"	f	class:CVector3d
+operator *	./vector.cpp	/^inline CVector3d CVector3d::operator*(const double a_input, const CVector3d& a_v)	{$/;"	f	class:CVector3d
+operator *=	./vector.cpp	/^inline void CVector3d::operator*= (const double& a_val) {$/;"	f	class:CVector3d
+operator +	./vector.cpp	/^inline CVector3d CVector3d::operator+(const CVector3d& a_v1, const cVector3d& a_v2)	 {$/;"	f	class:CVector3d
+operator +=	./vector.cpp	/^inline void CVector3d::operator+= (const double& a_val) {$/;"	f	class:CVector3d
+operator -	./vector.cpp	/^inline CVector3d CVector3d::operator-(const CVector3d& a_v1, const cVector3d& a_v2)	 {$/;"	f	class:CVector3d
+operator -=	./vector.cpp	/^inline void CVector3d::operator-= (const double& a_val) {$/;"	f	class:CVector3d
+operator /	./vector.cpp	/^inline CVector3d CVector3d::operator\/(const CVector3d& a_v, const double a_input) {$/;"	f	class:CVector3d
+operator /	./vector.cpp	/^inline CVector3d CVector3d::operator\/(const double a_input, const CVector3d& a_v)	 {$/;"	f	class:CVector3d
+operator /=	./vector.cpp	/^inline void CVector3d::operator\/= (const double& a_val) {$/;"	f	class:CVector3d
+operator <<	./vector.cpp	/^static inline std::ostream & CVector3d::operator << (std::ostream &a_os, cVector3d const& a_vec) {$/;"	f	class:CVector3d
+operator []	./vector.cpp	/^double  CVector3d::operator[] (unsigned int a_index)								 {$/;"	f	class:CVector3d
+operator []	./vector.cpp	/^double& CVector3d::operator[] (unsigned int a_index)								{$/;"	f	class:CVector3d
+print	./vector.cpp	/^inline void CVector3d::print(const unsigned int a_precision=2) {$/;"	f	class:CVector3d
+set	./vector.cpp	/^inline void CVector3d::set(const double& a_x, const double& a_y, const double& a_z) {$/;"	f	class:CVector3d
+str	./vector.cpp	/^inline string CVector3d::str(const unsigned int a_precision=2) {$/;"	f	class:CVector3d
+str	./vector.cpp	/^inline void CVector3d::str(string& a_string, const unsigned int a_precision=2) {$/;"	f	class:CVector3d
+sub	./vector.cpp	/^inline void  CVector3d::sub(const cVector3d& a_vector) {$/;"	f	class:CVector3d
+sub	./vector.cpp	/^inline void  CVector3d::sub(const double& a_x, const double& a_y, const double& a_z) {$/;"	f	class:CVector3d
+subr	./vector.cpp	/^inline void  CVector3d::subr(const cVector3d& a_vector, cVector3d& a_result) {$/;"	f	class:CVector3d
+subr	./vector.cpp	/^inline void  CVector3d::subr(const double& a_x, const double& a_y, const double& a_z,$/;"	f	class:CVector3d
+zero	./vector.cpp	/^inline void CVector3d::zero( void ) {$/;"	f	class:CVector3d
+~CVector3d	./vector.cpp	/^CVector3d::~CVector3d(){$/;"	f	class:CVector3d

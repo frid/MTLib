@@ -15,6 +15,9 @@ namespace MTLib {
 				public:
 					// Data
 					double d[3];
+				  double & x = d[0];
+					double & y = d[1];
+					double & z = d[2];
 
 					// Constructor
 					CVector3d();									/* Passing nothing */
