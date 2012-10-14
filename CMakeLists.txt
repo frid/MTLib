@@ -1,15 +1,13 @@
 # Define CMake parameter
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 PROJECT (MTLib)
+SET (MTLib_VERSION_MAJOR 0)
+SET (MTLib_VERSION_MINOR 2)
 
 # Include source folder
 ADD_SUBDIRECTORY(include)
 ADD_SUBDIRECTORY(src)
-ADD_SUBDIRECTORY(src/vector)
-ADD_SUBDIRECTORY(src/matrix)
-ADD_SUBDIRECTORY(src/optimization)
 ADD_SUBDIRECTORY(example)
-
 
 # Include document folder
 ADD_SUBDIRECTORY(doc)
