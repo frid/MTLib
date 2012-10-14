@@ -1,1 +1,1 @@
-SET(SRC_LIST vector.h vector.cpp)
+SET(${SRC_LIST} vector.h vector.cpp)
